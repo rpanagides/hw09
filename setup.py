@@ -1,4 +1,4 @@
-from setuptools import setup
+from setuptools import setup, find_packages
 
 setup(name='bookpackage',
       version='0.1',
@@ -7,4 +7,4 @@ setup(name='bookpackage',
       author='Reanna Panagides',
       author_email='reannapanagides@gmail.com',
       license='MIT',
-      packages=['booklover', 'booklover_test'])
+      packages= find_packages())
