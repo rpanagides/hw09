@@ -7,4 +7,4 @@ setup(name='bookpackage',
       author='Reanna Panagides',
       author_email='reannapanagides@gmail.com',
       license='MIT',
-      packages=['booklove', 'booklover_test'])
+      packages=['booklover', 'booklover_test'])
